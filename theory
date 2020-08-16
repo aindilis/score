@@ -1,0 +1,188 @@
+# by the Grace of God, willing:
+
+
+# we can collect key functionality and add to this system
+
+# we can transition from score to PSE for more logical alignment (simply rename score, pse?)
+
+
+
+
+# we can ensure the morality of our goals
+
+# we can ensure the logical consistency of our goals
+
+# we can ensure the fidelity of our goals
+
+# we can ensure the accuracy of our goals
+
+
+# we can relate key goals via our goal relation system
+
+
+
+# we can eliminate outdated goals, or goals that are no longer
+# necessary
+
+# we can ensure consistency between unilang and score databases
+#  identify duplicates
+#
+
+# we can record when a goal is judged as complete and what if any is
+# our evidence of this
+
+# we can formalize the goals so they make more sense to our other systems
+
+
+# what is in a goal?  a goal is a more complex data structure, I would
+  probably do well to read Justin's writing on the subject and to
+  understand them before proceeding, though they still need
+  integration, and clear still needs to be made into a seemlessly
+  installable debian package.
+
+
+# having said this, we can recognize certain goals or goal clusters
+  and then consider the relative importance of these different goals.
+
+# it would also help to have a language for structuring and discussing
+  these goals.  for this some of the systems for linguistic KR such as
+  recognizing "after that", etc. would come in very handy.
+
+
+
+  Note that most goals are consistent with other goals, for instance
+  cause /dev/hdb4 to not be mounted by default, the question is why?
+  because we don't want to cause damage to the drive.  The system may
+  consider asking us, why? until it UNDERSTANDS the reason for doing
+  something.  What don't we want to cause damage to the drive?
+  Because we will lose our data then.  Why, because we want to
+  increase the number of backup copies of our data.  Also we don't
+  want to loose stuff that may not have been copied over from the
+  system when it crashed.
+
+  If proceeding with these question elicitations, we eventually
+  connect and root the major reasons for a goal to other goals, we can
+  use our semantic similarity analysis to determine.
+
+  Basic algorithm:
+
+  Add goal (X):
+
+  # to prevent 
+
+  Why goal (X)?
+
+/var/lib/myfrdcsa/codebases/internal/architect/data/systems/organize.pl
+	System for interrelating systems, similar to entry matching.
+
+/var/lib/myfrdcsa/codebases/internal/architect/requirements-tracability/notes
+	Notes on how to do extract requirements
+
+some of the brainleach stuff has HTN stuff
+
+/var/lib/myfrdcsa/codebases/releases/do-0.1/do-0.1/coach/scripts/extract-dependencies.pl (the do system)
+
+/var/lib/myfrdcsa/codebases/releases/corpus-0.1/corpus-0.1/scripts/generate-nonsense-dependencies.pl
+
+# could try coauthor's dependency recognition
+
+Score should encapsulate functionality, as certain goals are inherently related to others.
+
+Score should consider plans and have a language for considering methodlogy and plans.
+
+Maybe consider doing things in emacs?
+
+# so I've done quite well in implementing KBS::Store.  I now have a
+# very versatile system, quite like UniLang itself.  Here follows some
+# ideas as to how to proceed:
+
+Here is an entry.
+
+'Purchase the music of Seoirse O\'Dochartaigh'
+
+Now one interpretation of it is satisfied.  Namely I purchase the
+compilation record.  However there is another interpretation, who
+knows if I meant it, and who cares?  That is that I should purchase
+all or more of the music.
+
+So we ought to annotate it as such:
+
+(status (interpretation '(goalFn 123414) 'purchase the compilation') completed)
+
+(status (interpretation '(goalFn 123414) 'purchase the compilation') completed)
+
+Query ((interpretation 123141 ?X)) -  Maybe it should try to
+answer that question, maybe there is software that can answer it.  We
+can have a template that responds to querys of the form, in other words a method:
+
+(defun interpretation
+ (X Y)
+ (let 
+  (Z
+   (goalFn X)
+  (assert Y
+   (interpretation Z)
+
+interpretation X . interpretation goalFn X
+interpretation X Perl FindInterpretations
+
+status interpretation 123414 'purchase the compilation' completed
+
+123414 'purchase the compilation' completed
+
+the selector determines that the likely inference is the above and
+automatically completes.
+
+
+it asks, what is the likely meaning to each individual entry, given the context of the program
+
+completed purchasing the compilation
+
+# check for related items in this history, we find 'purchase the music of ...'
+
+# recognize that 'purchase the compilation' is an interpretation of this goal
+
+whatis [[completed] [purchasing the compilation]]
+whatis [[completed purchasing] [the compilation]]
+
+# etc, or just use Enju
+
+# analyze probability using cognitive science methods outlined in that example
+
+# review context, and context stays around but fades out over time
+
+# then determine the likely responses and ask the user to select the
+# correct one, if the context, as computed by adjustable autonomy
+
+have to have code for it to select
+
+the context should consist of mappings, right.  purchasing -> 123414,
+various concepts expressed this way
+
+the strategy is to search out for potentially contextually relevant
+clues, and then repeat until an idea is fixed upon.
+
+reject certain hypothesises
+
+X is unlikely because Y
+
+->
+
+(not (likelyBecause (hypothesis X) ())
+
+X reminds me of this
+
+
+
+# note further that we should apply pattern matching, for instance
+
+apt-cache search packages
+
+[pattern [['UNIX-Command', 'apt-cache'], [UNIX-Arguments ['search',[Debian Packages]]]]]
+
+[pattern 'UNIX Shell Command' [['UNIX Executable Name' X] ['UNIX Arguments' Y]]]
+
+
+pattern Unix Shell Command - execu
+
+

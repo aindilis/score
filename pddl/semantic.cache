@@ -1,0 +1,116 @@
+;; Object worlds/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "worlds/"
+  :tables (list 
+   (semanticdb-table "hygiene.d.pddl"
+    :major-mode 'lisp-mode
+    :tags '(("define" code nil nil [2 9373]))
+    :file "hygiene.d.pddl"
+    :pointmax 9374
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "classes.p.pddl"
+    :major-mode 'lisp-mode
+    :tags '(("define" code nil nil [1 2204]))
+    :file "classes.p.pddl"
+    :pointmax 2204
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "classes.d.pddl"
+    :major-mode 'lisp-mode
+    :tags '(("define" code nil nil [1 750]))
+    :file "classes.d.pddl"
+    :pointmax 750
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "takebus.d.pddl"
+    :major-mode 'lisp-mode
+    :tags 'nil
+    :file "takebus.d.pddl"
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "integrate.d.pddl"
+    :major-mode 'lisp-mode
+    :tags 'nil
+    :file "integrate.d.pddl"
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "busroute.d.pddl"
+    :major-mode 'lisp-mode
+    :tags '(("define" code nil nil [115 795]))
+    :file "busroute.d.pddl"
+    :pointmax 819
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "busroute.p.pddl"
+    :major-mode 'lisp-mode
+    :tags '(("define" code nil nil [114 11132]))
+    :file "busroute.p.pddl"
+    :pointmax 11133
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "hygiene.p.pddl"
+    :major-mode 'lisp-mode
+    :tags '(("define" code nil nil [2 3663]))
+    :file "hygiene.p.pddl"
+    :pointmax 3666
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "groceries.p.pddl"
+    :major-mode 'lisp-mode
+    :tags '(("define" code nil nil [1 10942]))
+    :file "groceries.p.pddl"
+    :pointmax 10942
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "groceries.d.pddl"
+    :major-mode 'lisp-mode
+    :tags 'nil
+    :file "groceries.d.pddl"
+    :pointmax 800
+    )
+   (semanticdb-table "cycle.d.pddl"
+    :major-mode 'lisp-mode
+    :tags '(("define" code nil nil [1 556]))
+    :file "cycle.d.pddl"
+    :pointmax 557
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "cycle.p.pddl"
+    :major-mode 'lisp-mode
+    :tags '(("define" code nil nil [1 292]))
+    :file "cycle.p.pddl"
+    :pointmax 293
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "integrate.p.pddl"
+    :major-mode 'lisp-mode
+    :tags 'nil
+    :file "integrate.p.pddl"
+    )
+   (semanticdb-table "takebus.p.pddl"
+    :major-mode 'lisp-mode
+    :tags 'nil
+    :file "takebus.p.pddl"
+    )
+   (semanticdb-table "velveeta.d.pddl"
+    :major-mode 'lisp-mode
+    :tags 'nil
+    :file "velveeta.d.pddl"
+    )
+   (semanticdb-table "velveeta.p.pddl"
+    :major-mode 'lisp-mode
+    :tags 'nil
+    :file "velveeta.p.pddl"
+    )
+    (semanticdb-table ".p.pddl"
+    :major-mode 'lisp-mode
+    :tags 'nil
+    :file ".p.pddl"
+    :pointmax 1
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0beta3"
+  :semanticdb-version "2.0beta3"
+  )

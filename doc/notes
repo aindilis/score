@@ -1,0 +1,12 @@
+How to handle uncertainty/missing information in goal representation?
+
+We want to be able to handle as many use cases.
+
+For instance, when  the user has just done something  bad, and that is
+not in the database, she can add it with score --bad or whatever.
+
+in the PDDL file,
+
+critical success factors are going to be listed as goal
+
+other states may be achieved

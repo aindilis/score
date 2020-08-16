@@ -1,0 +1,15 @@
+THIS HAS BEEN IMPLEMENTED!
+
+We can determine importance.
+
+Use mereology.
+
+Status(Open,Closed)
+Holdup()
+
+
+Assert("Status",id,"Closed");
+Assert("Status",$id,"I do not want to do this now");
+Assert("Obstacle",$id,"I plan to do this later");
+
+Query("Obstacle",$x,$y);

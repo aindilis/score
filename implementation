@@ -1,0 +1,39 @@
+my $context =
+   {
+   	    
+   };
+X hypothesis 
+
+# check for related items in this history, we find 'purchase the music of ...'
+
+# recognize that 'purchase the compilation' is an interpretation of this goal
+
+whatis [[completed] [purchasing the compilation]]
+whatis [[completed purchasing] [the compilation]]
+
+# etc, or just use Enju
+
+# analyze probability using cognitive science methods outlined in that example
+
+# review context, and context stays around but fades out over time
+
+# then determine the likely responses and ask the user to select the
+# correct one, if the context, as computed by adjustable autonomy
+
+have to have code for it to select
+
+the context should consist of mappings, right.  purchasing -> 123414,
+various concepts expressed this way
+
+the strategy is to search out for potentially contextually relevant
+clues, and then repeat until an idea is fixed upon.
+
+reject certain hypothesises
+
+X is unlikely because Y
+
+->
+
+(not (likelyBecause (hypothesis X) ())
+
+X reminds me of this

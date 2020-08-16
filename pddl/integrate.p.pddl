@@ -1,0 +1,1 @@
+(define (problem INTEGRATE) (:domain INTEGRATE ) (:objects laundry - object) (:init (dirty laundry)) (:goal (and (cleaned laundry))))

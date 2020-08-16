@@ -1,0 +1,15 @@
+
+; Version LPG-td-1.0
+; Seed 100010767
+; Command line: /usr/bin/lpg-td-1.0 -o integrate.d.pddl -f integrate.p.pddl -speed 
+; Problem integrate.p.pddl
+; Time 0.05
+; Search time 0.04
+; Parsing time 0.01
+; Mutex time 0.00
+; MetricValue 2.00
+
+0.0003:   (WASH LAUNDRY) [1.0000]
+1.0005:   (DRY LAUNDRY) [1.0000]
+
+
